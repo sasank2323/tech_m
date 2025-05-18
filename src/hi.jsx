@@ -1,9 +1,11 @@
 
 function Hi()
 {
+    let h="sasank";
     return(
         <div> 
-            <h1>hi</h1>
+            <h1>hi {h.toUpperCase()}</h1>
+            <h2>{2*2}</h2>
             <p>hello world</p>
         </div>
     );
