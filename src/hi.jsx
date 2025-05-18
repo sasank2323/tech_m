@@ -1,6 +1,5 @@
 
-
-export default function hi()
+function Hi()
 {
     return(
         <div> 
@@ -9,3 +8,15 @@ export default function hi()
         </div>
     );
 }
+
+function Hello()
+{
+    return(
+        <div>
+            <h1>sasank</h1>
+            <p>hello world</p>
+        </div>
+    );
+}
+
+export {Hello,Hi};
