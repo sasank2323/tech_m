@@ -1,9 +1,11 @@
 
-function Hi()
+function Hi({num})
 {
+    //{ here we can use javascript code}
     let h="sasank";
+    let color=num >1000;
     return(
-        <div> 
+        <div style={{color:color?"red":"blue"}}> 
             <h1>hi {h.toUpperCase()}</h1>
             <h2>{2*2}</h2>
             <p>hello world</p>
