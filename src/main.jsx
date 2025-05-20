@@ -4,12 +4,13 @@ import './index.css'
 import App from './App.jsx'
 import Product from './Product.jsx'
 import { Hi } from './hi.jsx'
+import Form from './form.jsx'
+import Number from './number.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Product />
-   <Product />
-   <Hi num={3000} />
+   <Form />
+   <Number />
   </StrictMode>
 )
 
